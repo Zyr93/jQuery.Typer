@@ -1,0 +1,34 @@
+jQuery.Typer
+================
+
+The "Typer" plugin for jQuery creates a visual text editor in any element which you may fully customize
+by specifying buttons and automatic text replacers to, for example, wrap certain keywords in a <span> tag
+highlighting the text.
+
+I created this project in my need of something fully styleable as Google Chrome usually adds ugly yellow
+borders around focused text input fields. Just to make it uniform on every browser like jUI does, I've
+created this plugin designed to appear just like a standard text input element featuring a caret and
+selection.
+
+If using on existing text input elements such as input with type = text or textarea, the plugin will not
+break the formula functionality, meaning you could still simply send the request without doing anything
+special in JavaScript.
+For password fields, the input will be masked with asterisks ("*").
+
+As of version 0.0.1, I am only half way done. The rest of the features still have some time to wait as I
+currently am in a hussle to get the current main project done. Once I find myself having some more time,
+I'll really implement the remaining configurative features.
+
+
+Changelog
+================
+
+v0.0.1:
+
+ - Initial files
+
+ - Near real time text input possibly only noticeable on very slow machines
+
+ - Fake caret
+
+ - Fake selection

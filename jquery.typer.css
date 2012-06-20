@@ -1,0 +1,21 @@
+/**
+ * Project: jQuery "Typer" Plugin
+ * Author: Derija
+ * Date: 18.06.12
+ * Time: 22:36
+ * 
+ * Basic Styles for the jQuery Typer.
+ */
+
+::selection,
+::-moz-selection,
+::-webkit-selection,
+#selection {
+    background: black;
+    color: white;
+}
+
+.focus {
+    -moz-box-shadow: inset 0 0 10px #aaa;
+    box-shadow: inset 0 0 10px #aaa;
+}

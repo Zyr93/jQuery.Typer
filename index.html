@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery "Typer" Plugin Demo</title>
+    <link rel="stylesheet" href="jquery.typer.css" media="screen" />
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="jquery.oninsert.js"></script>
+    <script src="jquery.selection.js"></script>
+    <script src="jquery.typer.js"></script>
+    <script>
+        (function($){
+            $(function(){
+                $(document.body).children().not('input[type="password"]').typer('create', {
+
+                });
+                $('input[type="password"]').typer({
+                    initText : 'Type in a fantasy password.'
+                })
+            });
+        })(window.jQuery);
+    </script>
+</head>
+<body>
+    <h1>jQuery &quot;Typer&quot; Plugin</h1>
+    <p>
+        This is the demonstration page for the &quot;Typer&quot; plugin for jQuery which, in a nutshell,
+        creates a fake text input element and allows you to fully customize and style both the &quot;editor&quot;
+        itself and parts of the text! For more information, check out the
+        <a href="https://github.com/Derija93/jQuery.Typer">GitHub Repo</a>.
+    </p>
+    <p>
+        Everything on this page should be a Typer now. If something doesn&apos;t work for you, please feel
+        free to inform me at the repo. I&apos;d be glad to fix the first bugs. ;)
+    </p>
+    <input type="password" />
+</body>
+</html>
